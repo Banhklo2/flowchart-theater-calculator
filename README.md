@@ -1,4 +1,4 @@
-# FlowChart Theater Calculator
+# 🎬 FlowChart Theater Calculator
 
 **FlowChart로 영화관 결제 및 포인트 적립 로직을 설계하고 Java로 구현한 연습**
 
@@ -16,7 +16,7 @@
 
 ## 🧩 FlowChart
 
-![플로우차트 2주차 연습문제](https://github.com/user-attachments/assets/2305da00-ecd7-4ab7-bcd3-13dc1d80d9a3)
+![플로우차트 2주차 연습문제](https://github.com/user-attachments/assets/b76a07f1-66b8-485b-b5b7-67b918e263ff)
 
 ---
 
@@ -59,4 +59,21 @@
    1) 관람 가격 입력  
    2) `price == -1` 이면 종료 출력 후 종료  
    3) `price > 0` 이면  
-      - `totalPrice += pㅣt
+      - `totalPrice += price`  
+      - `totalPoint += price * 0.07`  
+   4) 그 외(0 이하)면  
+      - `"잘못된 입력입니다!"` 출력 후 반복
+
+3. 종료 시
+- `totalPrice`, `totalPoint` 출력
+
+---
+
+## 🛠️ 실행 방법
+
+```bash
+# 컴파일
+javac Main.java
+
+# 실행
+java Main
