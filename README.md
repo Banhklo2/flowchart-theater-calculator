@@ -59,21 +59,4 @@
    1) 관람 가격 입력  
    2) `price == -1` 이면 종료 출력 후 종료  
    3) `price > 0` 이면  
-      - `totalPrice += price`  
-      - `totalPoint += price * 0.07`  
-   4) 그 외(0 이하)면  
-      - `"잘못된 입력입니다!"` 출력 후 반복
-
-3. 종료 시
-- `totalPrice`, `totalPoint` 출력
-
----
-
-## 🛠️ 실행 방법
-
-```bash
-# 컴파일
-javac Main.java
-
-# 실행
-java Main
+      - `totalPrice += pㅣt
